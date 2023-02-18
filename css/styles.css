@@ -1,0 +1,53 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Work+Sans&display=swap');
+
+/* common styles */
+body{
+    font-family: 'EB Garamond', serif;
+}
+.ls-btn-bg-primary{
+    background-color: #B68C5A;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.ls-text-color{
+    color: #FFFFFF;
+}
+.ls-bg-color{
+    color: #B68C5A;
+}
+.ls-card-photo{
+    height: 70px;
+    width: 70px;
+}
+.ls-icon{
+    width: 30px;
+}
+.ls-hover:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);;
+}
+.ls-faq-primary{
+    background: #F3F3F3 !important;
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+.ls-form-pb{
+    padding-bottom: 150px;
+}
+.ls-border-rb{
+    border-right: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+}
+.ls-border-lt{
+    border-left: 1px solid #CFCFCF;
+    border-top: 1px solid #CFCFCF;
+}
+.ls-text-color-primary{
+    color: #CFCFCF;
+}
+
